@@ -1,6 +1,6 @@
 import torch
 
-x = torch.randn(3, requires_grad = True)    #
+x = torch.randn(3, requires_grad=True)    # generates tensor with gradients
 print(x)
 y = x * 2
 print(y)
