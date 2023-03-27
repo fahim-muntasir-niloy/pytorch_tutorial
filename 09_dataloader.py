@@ -10,7 +10,7 @@ from sklearn.datasets import load_breast_cancer
 breast_data = load_breast_cancer()     # this is in numpy array shape
 
 # converting into pandas dataframe
-df = pd.DataFrame(data = breast_data.data, columns=breast_data.feature_names)
+df = pd.DataFrame(data = breast_data.data, columns = breast_data.feature_names)
 df["target"] = pd.Series(breast_data.target)
 
 
